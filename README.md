@@ -7,5 +7,5 @@
 <h3>2. Création d'une implémentation de l'interface IDao</h3>
 <img src="captures/implementation-IDaoImpl.png">
 
-<h3>2. Création de l'interface IMetier</h3>
+<h3>3. Création de l'interface IMetier</h3>
 <img src="captures/interface-IMetier.png">
