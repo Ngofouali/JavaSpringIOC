@@ -9,3 +9,6 @@
 
 <h3>3. Création de l'interface IMetier</h3>
 <img src="captures/interface-IMetier.png">
+
+<h3>4. Création d'une implémentation de l'interface IMetier utilisant le couplage faible</h3>
+<img src="captures/implementation-MetierImpl.png">
