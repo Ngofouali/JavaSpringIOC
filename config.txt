@@ -1,2 +1,2 @@
-com.icodi.dao.DaoImpl
-com.icodi.dao.MetierImpl
+com.icodi.dao.DaoImplV2
+com.icodi.metier.MetierImpl

@@ -19,6 +19,15 @@
 
 <h4>b. Par instanciation dynamique</h4>
 <ul>
-<li> - Création d'un fichier de configuration contenant les packages et une implémentation des interfaces IDao & IMetier</li>
-</ul>
+<li> Création d'un fichier de configuration contenant les packages et une implémentation des interfaces IDao & IMetier</li>
 <img src="captures/config.png">
+<br/>
+<li> Création de la seconde couche présentation implémentant l'instanciation dynamique</li>
+<img src="captures/DI-dynamique.png">
+<br/>
+<li> Changement du ficheir de configuration pour prendre en compte la nouvelle version de l'interface IDao</li>
+<img src="captures/configV2.png">
+<br/>
+<li> Test après changement de la version du fichier de configuration</li>
+<img src="captures/TestConfigV2.png">
+</ul>
