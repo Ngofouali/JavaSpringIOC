@@ -16,3 +16,9 @@
 <h3>5. Injection des dépendances</h3>
 <h4>a. Par instanciation statique</h4>
 <img src="captures/DI-statique.png">
+
+<h4>b. Par instanciation dynamique</h4>
+<ul>
+<li> - Création d'un fichier de configuration contenant les packages et une implémentation des interfaces IDao & IMetier</li>
+</ul>
+<img src="captures/config.png">
