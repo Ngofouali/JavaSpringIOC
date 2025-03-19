@@ -12,3 +12,7 @@
 
 <h3>4. Création d'une implémentation de l'interface IMetier utilisant le couplage faible</h3>
 <img src="captures/implementation-MetierImpl.png">
+
+<h3>5. Injection des dépendances</h3>
+<h4>a. Par instanciation statique</h4>
+<img src="captures/DI-statique.png">

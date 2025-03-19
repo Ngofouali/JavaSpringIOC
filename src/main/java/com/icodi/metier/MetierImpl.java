@@ -24,7 +24,7 @@ public class MetierImpl implements IMetier {
     @Override
     public double calcul() {
         double tempData = dao.getData();
-        double result = tempData*0.5*Math.PI*(100-20);
+        double result = tempData*0.5*Math.random()*(100-20);
         return result;
     }
 }
