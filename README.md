@@ -1,6 +1,7 @@
 <h3>Création du projet et structure de base</h3>
 <img src="captures/structureprojet3.png">
 
+<h3>Partie 1</h3>
 <h3>1. Création de l'interface IDao avec une méthode getData</h3>
 <img src="captures/interface-IDao.png">
 
@@ -31,3 +32,5 @@
 <li> Test après changement de la version du fichier de configuration</li>
 <img src="captures/TestConfigV2.png">
 </ul>
+
+<h3>Partie 2</h3>
