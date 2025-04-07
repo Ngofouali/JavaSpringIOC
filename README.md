@@ -33,5 +33,21 @@
 <img src="captures/TestConfigV2.png">
 </ul>
 <h4>c. En utilisant le Framework Spring</h4>
+<h5> Version XML </h5>
+<ul>
+<li>Création du fichier config.XML</li>
+<img src="captures/création-fichier-configXML.png">
+<br/>
+<li>Création de la nouvelle version de la couche présentation UISpringXML + Test</li>
+<img src="captures/creation-UISpringXML.png">
+<br/>
+<li>Modification du fichier de configuration pour la prise en compte de la nouvelle version de la couche Dao</li>
+<img src="captures/DaoImplV2-SpringXML.png">
+<br/>
+<li>Test de la UISpringXML avec la nouvelle implémentation de la couche Dao</li>
+<img src="captures/Test-Nouvelle-Version-Capteurs.png">
+</ul>
+
+<h5> Version Annotations </h5>
 
 <h3>Partie 2 : Mini projet (Framework Injection de dépendance)</h3>
