@@ -32,5 +32,6 @@
 <li> Test après changement de la version du fichier de configuration</li>
 <img src="captures/TestConfigV2.png">
 </ul>
+<h4>c. En utilisant le Framework Spring</h4>
 
-<h3>Partie 2</h3>
+<h3>Partie 2 : Mini projet (Framework Injection de dépendance)</h3>
