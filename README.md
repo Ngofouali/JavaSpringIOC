@@ -49,5 +49,23 @@
 </ul>
 
 <h5> Version Annotations </h5>
+<ul>
+<li>Annotation de implémentation de la couche dao avec @Component</li>
+<img src="captures/dao-annotation.png">
+<br/>
+<li>Annotation de implémentation de la couche métier avec @Component + @Autowired + @Qualifier</li>
+<img src="captures/metier-annotation-@Autowired.png">
+<br/>
+<li>Création de la nouvelle version de la couche présentation UISpringAnnotation + Test (version base de données)</li>
+<img src="captures/creation-UISpringAnnotation+Test1.png">
+<br/>
+<li>Injection des dépendances via le constructeur (couche métier) et l'annotation @Qualifier (Version capteur)</li>
+<img src="captures/metier-annotation-via-constructeur.png">
+<br/>
+<li>Couche présentation UISpringAnnotation + Test Version capteur</li>
+<img src="captures/UISpringAnnotation%20+%20Test%20Version%20Capteur.png">
+</ul>
+<br/>
+<br/>
 
 <h3>Partie 2 : Mini projet (Framework Injection de dépendance)</h3>

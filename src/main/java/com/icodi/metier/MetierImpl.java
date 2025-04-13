@@ -1,19 +1,24 @@
 package com.icodi.metier;
 
 import com.icodi.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier {
+
     //Couplage faible
     private IDao dao;
 
     //Injection via le constructeur avec paramètres
-    public MetierImpl(IDao dao) {
+    public MetierImpl(@Qualifier("dv2") IDao dao) {
         this.dao = dao;
     }
 
     //Injection via le constructeur sans paramètres
-    public MetierImpl() {
-    }
+    /*public MetierImpl() {
+    }*/
 
 
     //Injection via le setter
